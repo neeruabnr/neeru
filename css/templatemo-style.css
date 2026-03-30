@@ -37,7 +37,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Manrope', sans-serif;
     color: #102033;
     font-weight: 700;
     text-wrap: balance;
@@ -100,7 +100,7 @@ h6 {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 34px;
     font-weight: 800;
     color: #ffffff !important;
@@ -702,7 +702,7 @@ h6 {
 
 .price {
     margin: 18px 0;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 48px;
     font-weight: 700;
     color: #102033;
@@ -780,7 +780,7 @@ footer {
 .logo-ft {
     display: inline-block;
     margin-bottom: 16px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 38px;
     font-weight: 800;
     color: #ffffff !important;
