@@ -114,13 +114,13 @@ h6 {
     font-style: normal;
     display: inline-block;
     margin-right: 0;
-    padding: 5px 11px 7px;
-    color: #081828;
-    border-radius: 16px;
-    background: linear-gradient(135deg, #a3ffea, #66e2c5 60%, #55c7ff);
-    box-shadow: 0 12px 26px rgba(102, 226, 197, 0.28);
-    text-shadow: none;
-    transform: translateY(-1px);
+    padding: 0;
+    color: #f3c24f;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    text-shadow: 0 8px 22px rgba(5, 18, 38, 0.28);
+    transform: none;
     letter-spacing: -0.045em;
 }
 
@@ -130,33 +130,18 @@ h6 {
     position: relative;
     font-weight: 800;
     letter-spacing: -0.08em;
-    padding-bottom: 4px;
+    padding-bottom: 0;
+    color: inherit;
 }
 
 .navbar-brand span::after,
 .logo-ft span::after {
-    content: "";
-    position: absolute;
-    left: -2px;
-    right: -4px;
-    bottom: 5px;
-    height: 12px;
-    background: linear-gradient(90deg, rgba(61, 110, 255, 0.3), rgba(102, 226, 197, 0.18));
-    border-radius: 999px;
-    z-index: -1;
+    content: none;
 }
 
 .navbar-brand span::before,
 .logo-ft span::before {
-    content: "";
-    position: absolute;
-    right: -12px;
-    top: 7px;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #7ff0d6;
-    box-shadow: 0 0 0 6px rgba(127, 240, 214, 0.12);
+    content: none;
 }
 
 .header.active .navbar-brand {
